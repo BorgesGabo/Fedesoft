@@ -1,0 +1,28 @@
+body{
+    /*background-color: #f2f2f2;*/
+    font-family: 'Roboto', sans serif;
+    font-size: 1rem;
+    color: #43525A;
+}
+header{
+    /*background-color: blue;*/
+}
+div.nav-wrapper{
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: aqua;
+}
+div.nav-container{
+    background-color: red;
+    padding: 2.14286rem 0.71429rem;
+    box-sizing: border-box;
+    color: #43525A;
+    font-size: 1.14286rem;
+}
+
+/*
+body {
+    font-family: 'Roboto', sans serif;
+    font-size: 48px;
+  }*/
+  
