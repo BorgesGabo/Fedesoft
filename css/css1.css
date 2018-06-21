@@ -3,6 +3,9 @@ a:link, a:visited, a:hover, a:focus, a:active {text-decoration: none ; color: #4
 header{
     background-color: #f2f2f2;
 }
+body{
+    font-family: 'Muli', sans-serif;
+}
 .nav-container{
     padding-top: 30px;
     padding-right: 8px;
@@ -28,33 +31,116 @@ header{
 .main{
     background-color: #444;
   color: #fff;
-  
+  width: 1785px;
   padding: 20px;
   font-size: 150%;
+  
 }
 
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-family: 'Muli', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.7em;
+    color: #444;
+    margin-bottom: 20px;
 }
 
 .section-container-wide-banner{
+    /*selecciona imagen como background*/
     background: url(https://www.modulosdesk.com/static/media/modulos-web-hero-bg-flip.0efcc100.jpg) no-repeat;
+    /*desplaza la imagen para en x y y*/
     background-position-x: 50%;
-    background-position-y: -10%;
+    background-position-y: 58%;
+    /*ajusta ancho y alto*/
     width: auto;
-    height: 1200px;
+    height: 727.559px;
+    /*crea espacio inferior para sobreponer la seccion siguiente cubriendo patas del escritorio*/
+    padding-bottom: 80px;
   
         
     }
 .banner{
+   /*margenes a los lados*/
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-right: 1.51%;
+    padding-left: 1.51%;
+
     display: grid;
-    grid-template-columns: 200px 800px;
-    padding-left: 600px;
-    padding-top: 150px;
-}
-.box1{
-    margin-left: 10%;
+    grid-template-columns: 42% 58%;
+
+    
 }
 
+.modularDesk{
+    margin-top: 167.438px;
+    margin-bottom: 167.438px;
+    margin-right: 80px;
+}
+.botones-contenedor{
+    margin-top: 38px;
+    height: 78px;
+}
 
+#boton-configure{
+    
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top:23.5px;
+    padding-bottom: 23.5px;
+    background-color: #28A5BE;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-style: unset;
+}
+#boton-learn{
+    
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-style: unset;
+}
+
+.p-modularDesk{
+    font-weight: 300;
+    font-size: 0.753em;
+    line-height: 160%;
+    color: #43525A;
+    margin-bottom: 32px;
+
+}
+
+.prueba{
+    /*asigno tamano*/
+    height: 10%;
+    width: 50%;
+    /*distancia contenido a marco*/
+    padding-top: 60px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+
+
+}
+
+#sandbox{
+    padding-left: 20px;
+
+}
+
+.grid{
+   
+    display: grid;
+    grid-template-columns: 10% 90%;
+    padding: 5px;
+    margin: 10px;
+
+}
+.para{
+    padding: 30px;
+    margin: 0px;
+    color: red;
+}
