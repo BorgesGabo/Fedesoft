@@ -5,6 +5,7 @@ header{
 }
 body{
     font-family: 'Muli', sans-serif;
+    background-color: #f2f2f2;
 }
 .nav-container{
     padding-top: 30px;
@@ -79,15 +80,15 @@ h1{
 }
 .botones-contenedor{
     margin-top: 38px;
-    height: 78px;
+    height: 61.48px;
 }
 
 #boton-configure{
     
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-top:23.5px;
-    padding-bottom: 23.5px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top:6%;
+    padding-bottom: 6%;
     background-color: #28A5BE;
     color: white;
     font-family: 'Muli', sans-serif;
@@ -95,10 +96,10 @@ h1{
 }
 #boton-learn{
     
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-top:12px;
-    padding-bottom: 12px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top:4%;
+    padding-bottom: 4%;
     background-color: #2D2D2D;
     color: white;
     font-family: 'Muli', sans-serif;
@@ -110,7 +111,7 @@ h1{
     font-size: 0.753em;
     line-height: 160%;
     color: #43525A;
-    margin-bottom: 32px;
+    margin-bottom: 62px;
 
 }
 
@@ -143,4 +144,133 @@ h1{
     padding: 30px;
     margin: 0px;
     color: red;
+}
+
+/*A surface made of modules*/
+
+.section-container-wide-surface{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 1px;
+
+}
+
+.box-modules{
+    padding-top: 15%;
+    padding-left:10%;
+    padding-right:15%;
+}
+
+.title-modules{
+    font-size: 2.2em;
+    line-height: 1.7em;
+    color: #43525A;
+    margin-bottom: 0px;
+}
+.parrafo1{
+    font-weight: 300;
+    font-size: 0.753em;
+    line-height: 160%;
+    
+}
+
+.parrafo2{
+    font-weight: 300;
+    font-size: 0.753em;
+    line-height: 160%;
+    margin-bottom: 62px;
+}
+
+#shop-boton{
+    background: #2D2D2D;
+    font-family: 'Muli', sans-serif;
+    font-style: unset;
+    color: white;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+#specs{
+
+    margin-left: 27%;
+    margin-right: 27%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+    line-height: 160%;
+        
+
+}
+#specs-super{
+    
+    grid-column: 1 / 4;
+    grid-row: 1;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+ 
+
+}
+#specs-create{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    margin-right:5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#specs-assemble{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 2;
+    margin-right:7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#specs-reconfigure{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2;
+    margin-right:7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.specs-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+#cssGrid{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,200px);
+    justify-items: center;
+}
+#b1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
 }
