@@ -1,13 +1,22 @@
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: #444;
+}
 
-a:link, a:visited, a:hover, a:focus, a:active {text-decoration: none ; color: #444; }
-header{
+header {
     background-color: #f2f2f2;
 }
-body{
+
+body {
     font-family: 'Muli', sans-serif;
     background-color: #f2f2f2;
 }
-.nav-container{
+
+.nav-container {
     padding-top: 30px;
     padding-right: 8px;
     padding-bottom: 30px;
@@ -15,7 +24,8 @@ body{
     margin-left: 25%;
     margin-right: 25%;
 }
-.nav-main{
+
+.nav-main {
     display: grid;
     grid-template-columns: 50px 50px 60px 30px auto 150px 100px 100px 60px;
     grid-gap: 10px;
@@ -26,19 +36,15 @@ body{
     padding: 20px;
 }
 
-
-
-
-.main{
+.main {
     background-color: #444;
-  color: #fff;
-  width: 1785px;
-  padding: 20px;
-  font-size: 150%;
-  
+    color: #fff;
+    width: 1785px;
+    padding: 20px;
+    font-size: 150%;
 }
 
-h1{
+h1 {
     font-family: 'Muli', sans-serif;
     font-size: 2.5em;
     line-height: 1.7em;
@@ -46,7 +52,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.section-container-wide-banner{
+.section-container-wide-banner {
     /*selecciona imagen como background*/
     background: url(https://www.modulosdesk.com/static/media/modulos-web-hero-bg-flip.0efcc100.jpg) no-repeat;
     /*desplaza la imagen para en x y y*/
@@ -57,48 +63,44 @@ h1{
     height: 727.559px;
     /*crea espacio inferior para sobreponer la seccion siguiente cubriendo patas del escritorio*/
     padding-bottom: 80px;
-  
-        
-    }
-.banner{
-   /*margenes a los lados*/
+}
+
+.banner {
+    /*margenes a los lados*/
     margin-left: 25%;
     margin-right: 25%;
     padding-right: 1.51%;
     padding-left: 1.51%;
-
     display: grid;
     grid-template-columns: 42% 58%;
-
-    
 }
 
-.modularDesk{
+.modularDesk {
     margin-top: 167.438px;
     margin-bottom: 167.438px;
     margin-right: 80px;
 }
-.botones-contenedor{
+
+.botones-contenedor {
     margin-top: 38px;
     height: 61.48px;
 }
 
-#boton-configure{
-    
+#boton-configure {
     padding-left: 6%;
     padding-right: 6%;
-    padding-top:6%;
+    padding-top: 6%;
     padding-bottom: 6%;
     background-color: #28A5BE;
     color: white;
     font-family: 'Muli', sans-serif;
     font-style: unset;
 }
-#boton-learn{
-    
+
+#boton-learn {
     padding-left: 8%;
     padding-right: 8%;
-    padding-top:4%;
+    padding-top: 4%;
     padding-bottom: 4%;
     background-color: #2D2D2D;
     color: white;
@@ -106,16 +108,15 @@ h1{
     font-style: unset;
 }
 
-.p-modularDesk{
+.p-modularDesk {
     font-weight: 300;
     font-size: 0.753em;
     line-height: 160%;
     color: #43525A;
     margin-bottom: 62px;
-
 }
 
-.prueba{
+.prueba {
     /*asigno tamano*/
     height: 10%;
     width: 50%;
@@ -123,70 +124,66 @@ h1{
     padding-top: 60px;
     margin-right: 15px;
     padding-bottom: 10px;
-
-
 }
 
-#sandbox{
+#sandbox {
     padding-left: 20px;
-
 }
 
-.grid{
-   
+.grid {
     display: grid;
     grid-template-columns: 10% 90%;
     padding: 5px;
     margin: 10px;
-
 }
-.para{
+
+.para {
     padding: 30px;
     margin: 0px;
     color: red;
 }
 
+
 /*A surface made of modules*/
 
-.section-container-wide-surface{
+.section-container-wide-surface {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 32%;
+    margin-right: 32%;
     background-color: #fff;
     border-style: solid;
     border-color: #dedede;
     border-width: 1px;
-
 }
 
-.box-modules{
+.box-modules {
     padding-top: 15%;
-    padding-left:10%;
-    padding-right:15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.title-modules{
+.title-modules {
     font-size: 2.2em;
     line-height: 1.7em;
     color: #43525A;
     margin-bottom: 0px;
 }
-.parrafo1{
+
+.parrafo1 {
     font-weight: 300;
     font-size: 0.753em;
     line-height: 160%;
-    
 }
 
-.parrafo2{
+.parrafo2 {
     font-weight: 300;
     font-size: 0.753em;
     line-height: 160%;
     margin-bottom: 62px;
 }
 
-#shop-boton{
+#shop-boton {
     background: #2D2D2D;
     font-family: 'Muli', sans-serif;
     font-style: unset;
@@ -196,81 +193,317 @@ h1{
     padding-right: 6%;
     padding-left: 6%;
 }
-#specs{
 
-    margin-left: 27%;
-    margin-right: 27%;
+#specs {
+    margin-left: 32%;
+    margin-right: 32%;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: grid;
     grid-template-columns: repeat(3, 33%);
     text-align: center;
     line-height: 160%;
-        
-
 }
-#specs-super{
-    
+
+#specs-super {
     grid-column: 1 / 4;
     grid-row: 1;
     padding-left: 4%;
     padding-right: 4%;
     padding-bottom: 4%;
- 
-
 }
-#specs-create{
+
+#specs-create {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 2;
-    margin-right:5%;
+    margin-right: 5%;
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    
 }
-#specs-assemble{
+
+#specs-assemble {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 2;
-    margin-right:7%;
+    margin-right: 7%;
     margin-left: 7%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#specs-reconfigure{
+
+#specs-reconfigure {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row: 2;
-    margin-right:7%;
+    margin-right: 7%;
     margin-left: 7%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.specs-image{
+
+.specs-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-h2{
+h2 {
     margin-top: 20%;
     margin-bottom: 5%;
     text-align: center;
-
 }
 
-#cssGrid{
+
+/*DISCOUNT SECTION*/
+
+#discount-container {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+#discount-img {
+    /*centering image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*adding dimensions*/
+    height: 1397px;
+    width: 580px;
+}
+
+#discount-blank {
+    height: 632px;
+    width: 1400px;
+    background-color: #ffffff;
+}
+
+#discount-content-container {
+    margin: 10px;
+    padding: 20px;
+}
+
+#discount-content {
+    margin-top: 10px;
+    margin-left: 31.8%;
+    margin-right: 30%;
+    padding-top: 10px;
+    /* height: 712px;
+    width: 1288px;
+    display: inline-block;*/
+    background-color: #ffffff;
+}
+
+#discount-intro {
+    margin-top: 10px;
+}
+
+#h2 {
+    padding: 5px;
+}
+
+#discount-array-five {
+    grid-column: 1;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#discount-array-seven {
+    grid-column: 2;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#discount-array-ten {
+    grid-column: 3;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#discount-array-twelve {
+    grid-column: 4;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#discount-numbers-array {
     display: grid;
-    grid-template-columns: repeat(3,33%);
-    grid-template-rows: repeat(2,200px);
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+/*MI PRUEBA*/
+
+#discount-container2 {
+    background-color: #28A5BE;
+    margin-left: 30%;
+    margin-right: 30;
+    height: 30px;
+    display: grid;
+}
+
+#z {
+    margin: 5%;
+}
+
+#cssGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 200px);
     justify-items: center;
 }
-#b1{
+
+#b1 {
     grid-column-start: 1;
     grid-column-end: 4;
+}
 
+#c1 {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#c2 {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 632px;
+    width: 1400px;
+    background-color: #ffffff;
+}
+
+#prueba3 {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#get-discount-text {
+    text-align: center;
+    line-height: 160%;
+}
+
+#t4 {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5px;
+    /*margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 632px;
+    width: 1400px;*/
+    background-color: #ffffff;
+}
+
+#t4-texto {
+    margin: 5px;
+}
+
+#h2-t4 {
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+/***** AQUI COMIENZA LO BUENO!!!!!! *****/
+
+.wide {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #ffffff;
+}
+
+.h2 {
+    font-weight: 600;
+    font-size: 2.28571rem;
+    line-height: 120%;
+    color: #43525A;
+    margin-top: 0%;
+}
+
+.h2--vertical-space {
+    margin-bottom: 25px;
+}
+
+.p {
+    font-size: 1rem;
+    line-height: 160%;
+    margin: 0;
+}
+
+.p--centered {
+    text-align: center;
+}
+
+#discount-box {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 600px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 80px;
+}
+
+#div-h2p-get-discount {
+    margin-bottom: 36px;
+    margin-left: 58px;
+    margin-right: 58px;
+}
+
+#div-img-tiles {
+    width: 310px;
+    height: 152px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div-h2p-discounts {
+    margin-left: 103px;
+    margin-right: 103px;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.div--padding {
+    padding-left: 25.71px;
+    padding-right: 25.71px;
+    padding-top: 12.85px;
+    padding-bottom: 12.85px;
+    text-align: center;
+}
+
+.p--circled-colored {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 1.14286rem;
+    border: 0.14286rem solid #43525A;
+    width: 2.85714rem;
+    height: 2.85714rem;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+    border-color: #28A5BE;
+    color: #28A5BE;
 }
