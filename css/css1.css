@@ -277,7 +277,7 @@ h2 {
 }
 
 #discount-blank {
-    height: 632px;
+    height: 485px;
     width: 1400px;
     background-color: #ffffff;
 }
@@ -426,6 +426,34 @@ h2 {
 .wide {
     margin-left: 30%;
     margin-right: 30%;
+}
+
+.wide--fix-position {
+    position: absolute;
+    top: 175%;
+    left: 1.5%;
+    background-color: #ffffff;
+}
+
+#div-img-desk2 {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    height: 578px;
+    width: 1404px;
+    /* background-image: url(file://localhost/Users/herbertvargas/Documents/Training/FullStack/Fedesoft/pictures/modulos-4x2conf.cbb371ed.jpg);
+    background-repeat: no-repeat;
+    height: 581px;
+    width: 1404px;
+    padding: 0px;
+    margin-right: 0px;*/
+}
+
+#div-blank {
+    position: absolute;
+    top: 180%;
+    height: 540px;
+    width: 1400px;
     background-color: #ffffff;
 }
 
@@ -454,7 +482,7 @@ h2 {
 #discount-box {
     background-color: #ffffff;
     width: 1200px;
-    height: 600px;
+    height: 550px;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 80px;
