@@ -258,169 +258,6 @@ h2 {
 }
 
 
-/*DISCOUNT SECTION*/
-
-#discount-container {
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: center;
-}
-
-#discount-img {
-    /*centering image*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /*adding dimensions*/
-    height: 1397px;
-    width: 580px;
-}
-
-#discount-blank {
-    height: 485px;
-    width: 1400px;
-    background-color: #ffffff;
-}
-
-#discount-content-container {
-    margin: 10px;
-    padding: 20px;
-}
-
-#discount-content {
-    margin-top: 10px;
-    margin-left: 31.8%;
-    margin-right: 30%;
-    padding-top: 10px;
-    /* height: 712px;
-    width: 1288px;
-    display: inline-block;*/
-    background-color: #ffffff;
-}
-
-#discount-intro {
-    margin-top: 10px;
-}
-
-#h2 {
-    padding: 5px;
-}
-
-#discount-array-five {
-    grid-column: 1;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#discount-array-seven {
-    grid-column: 2;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#discount-array-ten {
-    grid-column: 3;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#discount-array-twelve {
-    grid-column: 4;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#discount-numbers-array {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-
-/*MI PRUEBA*/
-
-#discount-container2 {
-    background-color: #28A5BE;
-    margin-left: 30%;
-    margin-right: 30;
-    height: 30px;
-    display: grid;
-}
-
-#z {
-    margin: 5%;
-}
-
-#cssGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    grid-template-rows: repeat(2, 200px);
-    justify-items: center;
-}
-
-#b1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-#c1 {
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-#c2 {
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    height: 632px;
-    width: 1400px;
-    background-color: #ffffff;
-}
-
-#prueba3 {
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-#get-discount-text {
-    text-align: center;
-    line-height: 160%;
-}
-
-#t4 {
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 5px;
-    /*margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    height: 632px;
-    width: 1400px;*/
-    background-color: #ffffff;
-}
-
-#t4-texto {
-    margin: 5px;
-}
-
-#h2-t4 {
-    height: 30px;
-    margin-top: 10px;
-}
-
-
 /***** AQUI COMIENZA LO BUENO!!!!!! *****/
 
 .wide {
@@ -435,18 +272,18 @@ h2 {
     background-color: #ffffff;
 }
 
+.wide--grid1x3 {
+    display: grid;
+    grid-template-columns: 150px 1100px 150px;
+    margin-top: 800px;
+}
+
 #div-img-desk2 {
     display: block;
     margin-left: 0px;
     margin-right: auto;
     height: 578px;
     width: 1404px;
-    /* background-image: url(file://localhost/Users/herbertvargas/Documents/Training/FullStack/Fedesoft/pictures/modulos-4x2conf.cbb371ed.jpg);
-    background-repeat: no-repeat;
-    height: 581px;
-    width: 1404px;
-    padding: 0px;
-    margin-right: 0px;*/
 }
 
 #div-blank {
