@@ -1,10 +1,32 @@
-centrar imagen...
+######## centrar imagen...
 
 img.center {
   display: block;
    margin-left: auto;
    margin-right: auto;
 }
+
+####### para cortar la imagen...
+
+figure{
+   width:300px; /*container-width*/
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
+}
+
+cropping with style
+figure img{
+   /*add to other styles*/
+   margin:-21.875% 0;
+}
+
+grid-template-columns: 150px 1100px 150px;
+
+
 
 
 
